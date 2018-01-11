@@ -29,17 +29,3 @@ const AppRouter = () => (
 );
 
 export default AppRouter;
-
-/* <Router history={history}>
-    <div>
-      <Switch>
-        <Route path="/" component={PublicRoute(LoginPage)} exact />
-        <Switch component={Header}>
-          <Route path="/dashboard" component={PrivateRoute(ExpenseDashboardPage)} />
-          <Route path="/create" component={PrivateRoute(AddExpensePage)} />
-          <Route path="/edit/:id" component={PrivateRoute(EditExpensePage)} />
-          <Route path="*" component={NotFoundPage} />
-        </Switch>
-      </Switch>
-    </div>
-  </Router> */
